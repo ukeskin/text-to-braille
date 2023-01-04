@@ -53,7 +53,7 @@ export default function Home() {
             className="bg-gray-200 rounded p-2"
             style={{ display: "inline-block" }}
           >
-            {`https://braille-translator.vercel.app/api/translate?text=${text}`}
+            {`https://brailletranslate.vercel.app/api/translate?text=${text}`}
           </code>
         </p>
         <p className="text-gray-600 mt-4">
@@ -106,7 +106,7 @@ export default function Home() {
           @umutkesk1n
         </a>
         <a
-          href="https://twitter.com/umutkesk1n"
+          href="https://github.com/ukeskin/text-to-braille"
           aria-label="Umut keskin twitter account"
           className="fixed bottom-0 left-0 m-4 bg-gray-800 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded-full"
         >
