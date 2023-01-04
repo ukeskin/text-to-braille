@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import domtoimage from "dom-to-image";
-
+import { AnalyticsWrapper } from "../components/analytics";
 import BrailleLetter from "../components/BrailleLetter";
 
 export default function Home() {
@@ -43,6 +43,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="p-4">
+        <AnalyticsWrapper />
         <h1 className="text-4xl font-bold text-gray-800 pb-4">
           Braille translator
         </h1>
